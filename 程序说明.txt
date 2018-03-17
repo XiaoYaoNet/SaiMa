@@ -1,0 +1,18 @@
+本程序说明：
+  一、Framemain:程序主类；
+      denglu:构造登陆界面类；
+      JDT：对denglu类进行监听；
+      JFrameFirst:构造二级界面；
+      JT:对JDT类和JFrameFirst类进行监听；
+      Competition:构造比赛场面的入口类；
+      ImageLoad:加载各个ImageDate类；
+      ImageProcess:构造动态马类；
+      Framemain：对比赛结果进行处理；
+      ImageClass:构造背景类；
+      music:背景音乐类；
+   二、程序中链接到数据库（使用的数据库为SOQServer）的类：JTD、JT、FrameSecond、JFrameFirst；
+   三、程序中使用的默认数据库名为：TEXT1，登陆名为：申四，密码为:1234。
+   四、各个框体均由不同的类声明创建，有上一个窗体进行实例化，在日后维护时便于在两个窗体见再插入一个新窗体。
+   五、界面设计中，各个空间均用坐标放置指定位置，在日后维护中便于任意更改界面风格和格局。
+   六、马位移的控制均采用CPU产生的随机数进行控制，能够防止游戏中的作弊行为。
+   
